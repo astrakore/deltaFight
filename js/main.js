@@ -11,7 +11,7 @@ const cambiaPantalla = (cambio) => {
 
     let arrayPantallas = ["screen1","screen2","screen3","screen4"];
 
-    arrayPantallas = arrayPantallas.filter(valor => !fasewant.includes(valor));
+    arrayPantallas = arrayPantallas.filter(valor => !pantallaDeseada.includes(valor));
 
     document.getElementById(pantallaDeseada).style.display = "block";
 

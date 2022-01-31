@@ -15,6 +15,11 @@ body {
     width: 100vw;
 }
 
+#start {
+    display: flex;
+    justify-content: center;
+}
+
 /* Segunda pantalla */
 
 .designScreen2 {
@@ -22,6 +27,92 @@ body {
 
     height: 100vh;
     width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personajes {
+    height: 40em;
+    width: 80em;
+
+    background-color: blue;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.personajesArriba {
+    height: 20em;
+    width: 80em;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.personajesAbajo {
+    height: 20em;
+    width: 80em;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#queen {
+    height: 20em;
+    width: 20em;
+
+    background-color: green;
+}
+
+#susie {
+    height: 20em;
+    width: 20em;
+
+    background-color: forestgreen;
+}
+
+#annoyingDog {
+    height: 20em;
+    width: 20em;
+
+    background-color: tomato;
+}
+
+#ralsei {
+    height: 20em;
+    width: 20em;
+
+    background-color: brown;
+}
+
+#sans {
+    height: 20em;
+    width: 20em;
+
+    background-color: brown;
+}
+
+#temmie {
+    height: 20em;
+    width: 20em;
+
+    background-color: brown;
+}
+
+#noelle {
+    height: 20em;
+    width: 20em;
+
+    background-color: brown;
+}
+
+#berdly {
+    height: 20em;
+    width: 20em;
+
+    background-color: brown;
 }
 
 /* Tercera pantalla */
