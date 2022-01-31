@@ -7,11 +7,17 @@ const cleanGame = () => {
 }
 
 const cambiaPantalla = (cambio) => {
-    let pamtallaDeseada ="screen" + cambio;
+    let pantallaDeseada ="screen" + cambio;
 
-    let arrayPantallas = ["screen2","screen2"];
+    let arrayPantallas = ["screen1","screen2","screen3","screen4"];
 
     arrayPantallas = arrayPantallas.filter(valor => !fasewant.includes(valor));
+
+    document.getElementById(pantallaDeseada).style.display = "block";
+
+    for (let pantalla of arrayPantallas) {
+        document.getElementById(pantalla).style.display = "none";
+    }
 }
 
 // Algoritmo
