@@ -194,27 +194,24 @@ const selectFighter = (nLuchador) => {
         jugador1 = allFighters[nLuchador];
 
         let luchador1 = document.getElementById(nLuchador);
-        let datosLuchador1 = document.getElementById("data"+ 1);
 
         luchador1.disabled = true;
 
-        luchador1.classList.add("luchador"[nLuchador] + "Seleccion");
-        datosLuchador1.innerHTML = `${jugador1.nombre}`;
+        luchador1.classList.add("fighterSelected");
     } else if (jugador2 == "") {
         jugador2 = allFighters[nLuchador];
 
         let luchador2 = document.getElementById(nLuchador);
-        let datosLuchador2 = document.getElementById("data"+ 2);
 
         luchador2.disabled = true;
 
-        luchador2.classList.add("luchador"[nLuchador] + "Seleccion");
-        datosLuchador2.innerHTML = `${jugador2.nombre}`;
+        luchador2.classList.add("fighterSelected");
+
+        setTimeout(()=>{
+            cambiaPantalla(3);
+        },2500);
     }
 
-    setTimeout(()=>{
-        cambiaPantalla(3);
-    },2500);
 }
 
 // Algoritmo
