@@ -70,6 +70,8 @@ body {
     flex-direction: row;
 }
 
+/* Fotos Luchador Queen */
+
 #queen {
     height: 20em;
     width: 20em;
@@ -78,7 +80,25 @@ body {
     background-image: url(../img/seleccionQueen.png);
 }
 
-#susie {
+.queenNoSeleccionado {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionQueen.png);
+}
+
+.queenSeleccion {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionQueenBYN.png);
+}
+
+/* Fotos Luchador Susie */
+
+.susie {
     height: 20em;
     width: 20em;
 
@@ -86,7 +106,25 @@ body {
     background-image: url(../img/seleccionSusie.png);
 }
 
-#annoyingDog {
+.susieNoSeleccionado {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionSusie.png);
+}
+
+.susieSeleccion {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionSusieBYN.png);
+}
+
+/* Fotos Luchador Annoying Dog */
+
+.annoyingDog {
     height: 20em;
     width: 20em;
 
@@ -94,7 +132,25 @@ body {
     background-image: url(../img/seleccionAnnoyingDog.png);
 }
 
-#ralsei {
+.annoyingDogNoSeleccionado {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionAnnoyingDog.png);
+}
+
+.annoyingDogSeleccion {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionAnnoyingDogBYN.png);
+}
+
+/* Fotos Luchador Ralsei */
+
+.ralsei {
     height: 20em;
     width: 20em;
 
@@ -102,7 +158,25 @@ body {
     background-image: url(../img/seleccionRalsei.png);
 }
 
-#temmie {
+.ralseiNoSeleccionado {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionRalsei.png);
+}
+
+.ralseiSeleccion {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionRalseiBYN.png);
+}
+
+/* Fotos Luchador Temmie */
+
+.temmie {
     height: 20em;
     width: 20em;
 
@@ -110,7 +184,25 @@ body {
     background-image: url(../img/seleccionTemmie.png);
 }
 
-#sans {
+.temmieNoSeleccionado {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionTemmie.png);
+}
+
+.temmieSeleccion {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionTemmieBYN.png);
+}
+
+/* Fotos Luchador Sans */
+
+.sans {
     height: 20em;
     width: 20em;
 
@@ -118,7 +210,25 @@ body {
     background-image: url(../img/seleccionSans.png);
 }
 
-#noelle {
+.sansNoSeleccionado {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionSans.png);
+}
+
+.sansSeleccion {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionSansBYN.png);
+}
+
+/* Fotos Luchador Noelle */
+
+.noelle {
     height: 20em;
     width: 20em;
 
@@ -126,12 +236,46 @@ body {
     background-image: url(../img/seleccionNoelle.png);
 }
 
-#berdly {
+.noelleNoSeleccionado {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionNoelle.png);
+}
+
+.noelleSeleccion {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionNoelleBYN.png);
+}
+
+/* Fotos Luchador Berdly */
+
+.berdly {
     height: 20em;
     width: 20em;
 
     background-size: cover;
     background-image: url(../img/seleccionBerdly.png);
+}
+
+.berdlyNoSeleccionado {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionBerdly.png);
+}
+
+.berdlySeleccion {
+    height: 20em;
+    width: 20em;
+
+    background-size: cover;
+    background-image: url(../img/seleccionBerdlyBYN.png);
 }
 
 /* Tercera pantalla */

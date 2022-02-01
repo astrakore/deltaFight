@@ -28,25 +28,29 @@
 
     <!-- ---------------------------------------- Esto es la segunda pantalla ---------------------------------------- -->
 
-    <section id="screen2" onclick="cambiaPantalla(3)" style="display: none">
+    <section id="screen2" style="display: none">
         <div class="designScreen2">
             
             <div class="personajes">
 
                 <div class="personajesArriba">
-                    <div id="queen"></div>
-                    <div id="susie"></div>
-                    <div id="annoyingDog"></div>
-                    <div id="ralsei"></div>
+                    <div id="queen" class="queenNoSeleccionado" onclick="luchador1Selec(1)"></div>
+                    <div id="susie" class="susieNoSeleccionado" onclick="luchador2Selec(2)"></div>
+                    <div id="annoyingDog" class="annoyingDogNoSeleccionado" onclick="luchador3Selec(3)"></div>
+                    <div id="ralsei" class="ralseiNoSeleccionado" onclick="luchador4Selec(4)"></div>
                 </div>
 
                 <div class="personajesAbajo">
-                    <div id="temmie"></div>
-                    <div id="sans"></div>
-                    <div id="noelle"></div>
-                    <div id="berdly"></div>
+                    <div id="temmie" class="temmieNoSeleccionado" onclick="luchador5Selec(5)"></div>
+                    <div id="sans" class="sansNoSeleccionado" onclick="luchador6Selec(6)"></div>
+                    <div id="noelle" class="noelleNoSeleccionado" onclick="luchador7Selec(7)"></div>
+                    <div id="berdly" class="berdlyNoSeleccionado" onclick="luchador8Selec(8)"></div>
                 </div>
 
+            </div>
+
+            <div id="start" onclick="cambiaPantalla(3)">
+                <img src="img/queenPlayer2.gif">
             </div>
 
         </div>
@@ -89,7 +93,7 @@
                 <img src="img/queenThen.png">
             </div>
             <div id="start" onclick="cambiaPantalla(5)">
-                <img src="img/queenFight.png">
+                <img src="img/queenFight.gif">
             </div>
         </div>
     </section>
@@ -98,7 +102,7 @@
 
     <section id="screen5" onclick="cambiaPantalla(1)" style="display: none">
         <div class="designScreen5">
-            
+
         </div>
     </section>
 
