@@ -41,6 +41,8 @@ let allFighters = {
     8 : fighter8
 }
 
+
+
 // Generando variables básicas del entorno
 
 let jugador1 = "";
