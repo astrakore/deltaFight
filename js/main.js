@@ -90,6 +90,14 @@ const selectFighter = (nLuchador) => {
     }
 }
 
+const displayGame = () => {
+
+    displayJugador1.innerHTML = `<img class="foto" src="img/plyr1${jugador1.nombre}.png" alt="primer_luchador"/>`;
+    
+    displayJugador2.innerHTML = `<img class="foto" src="img/plyr2${jugador2.nombre}.png" alt="segundo_luchador"/>`;
+                                           
+}
+
 const transformFighter = (nLuchador) => {
     let conversion = allPersonajes[nLuchador];
     conversion.toString();
@@ -98,6 +106,10 @@ const transformFighter = (nLuchador) => {
 
     console.log(conversion);
 }
+
+let displayJugador1 = document.getElementById("pictureFighter1");
+let displayJugador2 = document.getElementById("pictureFighter2");
+let winner = document.getElementById("winner");
 
 // if (jugador1 == "fighter" + (nLuchador)) {
 

@@ -39,7 +39,7 @@
                     <div id="2" class="fighterChoosing2" onclick="selectFighter(2)"></div>
                     <div id="3" class="fighterChoosing3" onclick="selectFighter(3)"></div>
                     <div id="4" class="fighterChoosing4" onclick="selectFighter(4)"></div>
-                    
+
                 </div>
 
                 <div class="personajesAbajo1">
@@ -65,7 +65,7 @@
             <div id="start">
                 <img src="img/queenThen.png">
             </div>
-            <div id="start" onclick="cambiaPantalla(5)">
+            <div id="start" onclick="cambiaPantalla(4),displayGame()">
                 <img src="img/queenFight.gif">
             </div>
         </div>
@@ -75,8 +75,27 @@
 
     <section id="screen4" style="display: none">
         <div class="designScreen4">
-            <div id="personaje1"></div>
-            <div id="personaje2"></div>
+
+            <div class="topFightScreen">
+
+            </div>
+
+            <div class="bottomFightScreen">
+
+                <div class="playerContainer">
+
+                    <div id="pictureFighter1" class="fighterFightDisplay"></div>
+
+                </div>
+
+                <div class="playerContainer">
+
+                    <div id="pictureFighter2" class="fighterFightDisplay"></div>
+
+                </div>
+                
+            </div>
+
         </div>
     </section>
 

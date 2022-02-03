@@ -21,7 +21,7 @@ class Luchador {
 
 let fighter1 = new Luchador("Queen",1000,250,250,250);
 let fighter2 = new Luchador("Susie",1150,300,150,150);
-let fighter3 = new Luchador("Annoying Dog",Math.random(1000,5001),Math.random(100, 601),Math.random(200,601),Math.random(99, 401));
+let fighter3 = new Luchador("AnnoyingDog",Math.random(1000,5001),Math.random(100, 601),Math.random(200,601),Math.random(99, 401));
 let fighter4 = new Luchador("Ralsei",1100,200,150,300);
 let fighter5 = new Luchador("Temmie",Math.random(1000,1701),Math.random(100,601),200,300);
 let fighter6 = new Luchador("Sans",1666,400,300,100);

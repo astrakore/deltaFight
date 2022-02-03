@@ -369,50 +369,77 @@ body {
 /* Cuarta pantalla */
 
 .designScreen4 {
-    background-color: blue;
+    background-color: rgb(32, 32, 32);
 
     height: 100vh;
     width: 100vw;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    justify-content: baseline;
+}
+
+.topFightScreen {
+    height: 6em;
+    width: 90em;
+
+    background-color: blue;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomFightScreen {
+    height: 36em;
+    width: 90em;
+
+    background-color: pink;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerContainer {
+    height: 32em;
+    width: 44em;
+
+    background-color: blueviolet;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fighterFightDisplay {
+    height: 32em;
+    width: 30em;
+
+    background-color: brown;
+    
+    display: flex;
+    align-items: end;
     justify-content: center;
 }
 
-.personajeSeleccionado1luchador1 {
-    height: 70.313em;
-    width: 31.25em;
+.foto {
+    height: 32em;
+    width: 17em;
 
-    background-image: url(../img/queenDePieIzq.png);
-}
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 
-.personajeSeleccionado1luchador2 {
-    background-image: url();
-}
+    object-position: bottom;
+    object-fit: contain;
 
-.personajeSeleccionado1luchador3 {
-    background-image: url();
-}
-
-.personajeSeleccionado1luchador4 {
-    background-image: url();
-}
-
-.personajeSeleccionado1luchador5 {
-    background-image: url();
-}
-
-.personajeSeleccionado1luchador6 {
-    background-image: url(../img/sansDePieIzq.png);
-}
-
-.personajeSeleccionado1luchador7 {
-    background-image: url();
-}
-
-.personajeSeleccionado1luchador8 {
-    background-image: url();
+    background-size: 30em;
+    background-position: bottom center;
 }
 
 /* Quinta pantalla */
