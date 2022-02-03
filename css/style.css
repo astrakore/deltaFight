@@ -45,7 +45,10 @@ body {
 }
 
 .personajes {
-    height: 40em;
+    margin: 0;
+    padding: 0;
+
+    height: 80em;
     width: 80em;
 
     display: flex;
@@ -54,40 +57,299 @@ body {
     justify-content: center;
 }
 
-.personajesArriba {
+.personajes1 {
+    margin: 0;
+    padding: 0;
+
+    height: 20em;
+    width: 80em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.personajes2 {
+    margin: 0;
+    padding: 0;
+
+    height: 20em;
+    width: 80em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.personajesArriba1 {
+    margin: 0;
+    padding: 0;
+
     height: 20em;
     width: 80em;
 
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.personajesAbajo {
+.personajesAbajo1 {
+    margin: 0;
+    padding: 0;
+
     height: 20em;
     width: 80em;
 
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.fighterChoosing {
+.posiLuch1 {
+    margin: 0;
+    padding: 0;
+
     height: 20em;
     width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posiLuch2 {
+    margin: 0;
+    padding: 0;
+    
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fighterChoosing1 {
+    margin: 0;
+    padding: 0;
+
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionQueen.png);
+    background-size: cover;
+}
+
+.fighterChoosing2 {
+    margin: 0;
+    padding: 0;
+
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionSusie.png);
+    background-size: cover;
+}
+
+.fighterChoosing3 {
+    margin: 0;
+    padding: 0;
+
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionAnnoyingDog.png);
+    background-size: cover;
+}
+
+.fighterChoosing4 {
+    margin: 0;
+    padding: 0;
+
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionRalsei.png);
+    background-size: cover;
+}
+
+.fighterChoosing5 {
+    margin: 0;
+    padding: 0;
+
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionTemmie.png);
+    background-size: cover;
+}
+
+.fighterChoosing6 {
+    margin: 0;
+    padding: 0;
+
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionSans.png);
+    background-size: cover;
+}
+
+.fighterChoosing7 {
+    margin: 0;
+    padding: 0;
+
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionNoelle.png);
+    background-size: cover;
+}
+
+.fighterChoosing8 {
+    margin: 0;
+    padding: 0;
+
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionBerdly.png);
+    background-size: cover;
 }
 
 .fighterSelection {
     height: 20em;
     width: 40em;
 
-    background-color: black;
-    border-color: white;
+    background-color: rgb(138, 133, 133);
+
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.fighterSelected {
-    -webkit-filter: grayscale(100%); 
-    filter: grayscale(100%);
+.fighterSelected1 {
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionQueenBYN.png);
+}
+
+.fighterSelected2 {
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionSusieBYN.png);
+}
+
+.fighterSelected3 {
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionAnnoyingDogBYN.png);
+}
+
+.fighterSelected4 {
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionRalseiBYN.png);
+}
+
+.fighterSelected5 {
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionTemmieBYN.png);
+}
+
+.fighterSelected6 {
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionSansBYN.png);
+}
+
+.fighterSelected7 {
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionNoelleBYN.png);
+}
+
+.fighterSelected8 {
+    height: 20em;
+    width: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionBErdlyBYN.png);
 }
 
 /* Tercera pantalla */
@@ -107,27 +369,13 @@ body {
 /* Cuarta pantalla */
 
 .designScreen4 {
-    background-color: black;
+    background-color: blue;
 
     height: 100vh;
     width: 100vw;
 
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Quinta pantalla */
-
-.designScreen5 {
-    background-color: black;
-
-    height: 100vh;
-    width: 100vw;
-
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -165,6 +413,20 @@ body {
 
 .personajeSeleccionado1luchador8 {
     background-image: url();
+}
+
+/* Quinta pantalla */
+
+.designScreen5 {
+    background-color: black;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Sexta pantalla */
