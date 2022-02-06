@@ -50,23 +50,27 @@ const selectFighter = (nLuchador) => {
 const displayGame = () => {
 
     displayJugador1.innerHTML = `<img class="foto" src="img/plyr1${jugador1.nombre}.png" alt="primer_luchador"/>`;
+    statsJugador1.innerHTML = `<div>${jugador1.nombre}${jugador1.vida}</div>`;
     
     displayJugador2.innerHTML = `<img class="foto" src="img/plyr2${jugador2.nombre}.png" alt="segundo_luchador"/>`;
+    statsJugador2.innerHTML = `<div>${jugador2.nombre}${jugador2.vida}</div>`;
                                            
 }
 
 let displayJugador1 = document.getElementById("pictureFighter1");
 let displayJugador2 = document.getElementById("pictureFighter2");
+let statsJugador1 = document.getElementById("stats1");
+let statsJugador2 = document.getElementById("stats2");
 let winner = document.getElementById("winner");
 
-let screen4 = document.getElementById("screen4");
+// let screen4 = document.getElementById("screen4");
 
-document.body.addEventListener("keydown", (ev) => {
+// document.body.addEventListener("keydown", (ev) => {
             
-    if(screen4.style.display == "block"){
-        console.log("ataque");
-    }
+//     if(screen4.style.display == "block"){
+//         console.log("ataque");
+//     }
 
-});
+// });
 
 // Algoritmo
