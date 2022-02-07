@@ -47,14 +47,47 @@ const selectFighter = (nLuchador) => {
     }
 }
 
+// ---------------------------------------- MOSTRAR PANTALLA DE JUEGO ---------------------------------------- 
+
 const displayGame = () => {
 
     displayJugador1.innerHTML = `<img class="foto" src="img/plyr1${jugador1.nombre}.png" alt="primer_luchador"/>`;
-    statsJugador1.innerHTML = `<div>${jugador1.nombre}${jugador1.vida}</div>`;
+    statsJugador1.innerHTML = `<div>${jugador1.nombre} ${jugador1.vida}</div>`;
     
     displayJugador2.innerHTML = `<img class="foto" src="img/plyr2${jugador2.nombre}.png" alt="segundo_luchador"/>`;
-    statsJugador2.innerHTML = `<div>${jugador2.nombre}${jugador2.vida}</div>`;
+    statsJugador2.innerHTML = `<div>${jugador2.nombre} ${jugador2.vida}</div>`;
                                            
+}
+
+const pegar = () => {
+
+    if ((jugador1.vida <= 0) || (jugador2.vida > 0)) {
+        ganador = jugador2;
+
+    } else  {
+        ganador = jugador1;
+    }
+
+    displayJugador1.innerHTML = `<img class="foto" src="img/plyr1${jugador1.nombre}Hit.gif" alt="primer_luchador_pegando"/>`;
+    displayJugador1.onclick = "";
+    displayJugador1.classList.add("plyr1Hit");
+    setTimeout(() => {
+        displayJugador1.classList.remove("plyr1Hit");
+    }, 1000);
+    
+
+    displayJugador2.innerHTML = `<img class="foto" src="img/plyr2${jugador2.nombre}Hit.gif" alt="segundo_luchador_pegando"/>`;
+    
+
+    jugador1.pegar();
+
+    jugador1.cancelarGolpe();
+
+    jugador2.pegar();
+
+    jugador2.cancelarGolpe();
+
+
 }
 
 let displayJugador1 = document.getElementById("pictureFighter1");

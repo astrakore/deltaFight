@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "PixelOperator";
+    font-family: "Pixel Operator";
     src: url("/assets/PixelOperator-Bold.ttf") format("truetype")
     local("PixelOperator-Bold.ttf") format("truetype");
   }
@@ -63,32 +63,6 @@ body {
     justify-content: center;
 }
 
-.personajes1 {
-    margin: 0;
-    padding: 0;
-
-    height: 20em;
-    width: 80em;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.personajes2 {
-    margin: 0;
-    padding: 0;
-
-    height: 20em;
-    width: 80em;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .personajesArriba1 {
     margin: 0;
     padding: 0;
@@ -114,36 +88,12 @@ body {
     justify-content: center;
 }
 
-.posiLuch1 {
-    margin: 0;
-    padding: 0;
-
-    height: 20em;
-    width: 20em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.posiLuch2 {
-    margin: 0;
-    padding: 0;
-    
-    height: 20em;
-    width: 20em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .fighterChoosing1 {
     margin: 0;
     padding: 0;
 
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -157,8 +107,8 @@ body {
     margin: 0;
     padding: 0;
 
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -172,8 +122,8 @@ body {
     margin: 0;
     padding: 0;
 
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -187,8 +137,8 @@ body {
     margin: 0;
     padding: 0;
 
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -202,8 +152,8 @@ body {
     margin: 0;
     padding: 0;
 
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -217,8 +167,8 @@ body {
     margin: 0;
     padding: 0;
 
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -232,8 +182,8 @@ body {
     margin: 0;
     padding: 0;
 
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -247,8 +197,8 @@ body {
     margin: 0;
     padding: 0;
 
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -271,8 +221,8 @@ body {
 }
 
 .fighterSelected1 {
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -282,8 +232,8 @@ body {
 }
 
 .fighterSelected2 {
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -293,8 +243,8 @@ body {
 }
 
 .fighterSelected3 {
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -304,8 +254,8 @@ body {
 }
 
 .fighterSelected4 {
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -315,8 +265,8 @@ body {
 }
 
 .fighterSelected5 {
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -326,8 +276,8 @@ body {
 }
 
 .fighterSelected6 {
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -337,8 +287,8 @@ body {
 }
 
 .fighterSelected7 {
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
@@ -348,14 +298,14 @@ body {
 }
 
 .fighterSelected8 {
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-image: url(../img/seleccionBErdlyBYN.png);
+    background-image: url(../img/seleccionBerdlyBYN.png);
 }
 
 /* Tercera pantalla */
@@ -387,10 +337,8 @@ body {
 }
 
 .topFightScreen {
-    height: 6em;
-    width: 90em;
-
-    background-color: blue;
+    height: 5em;
+    width: 80em;
 
     display: flex;
     flex-direction: row;
@@ -398,9 +346,22 @@ body {
     align-items: center;
 }
 
+.statsDisplay {
+    font-family: "Pixel Operator";
+    font-size: 3em;
+    display: flex;
+
+    background-color: white;
+}
+
+.relleno {
+    height: 6em;
+    width: 22em
+}
+
 .bottomFightScreen {
     height: 36em;
-    width: 90em;
+    width: 80em;
 
     display: flex;
     flex-direction: row;
@@ -420,7 +381,7 @@ body {
 
 .fighterFightDisplay {
     height: 32em;
-    width: 30em;
+    width: 44em;
 
     display: flex;
     align-items: end;
@@ -429,17 +390,42 @@ body {
 
 .foto {
     height: 32em;
-    width: 17em;
+    width: 32em;
 
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
 
     object-position: bottom;
     object-fit: contain;
 
-    background-size: 30em;
+    background-size: contain;
     background-position: bottom center;
+}
+
+#rellenito {
+    width: 2.6em;
+}
+
+.plyr1Hit {
+    height: 32em;
+    width: 32em;
+
+    background-color: aqua;
+
+    display: flex;
+}
+
+#pegarContenedor {
+    height: 1.3em;
+    width: 1.8em;
+
+    background-color: white;
+
+    font-family: "Pixel Operator";
+    font-size: 3em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Quinta pantalla */

@@ -1,14 +1,14 @@
 class Luchador {
 
-    constructor(nombre,vida,fuerza,defensa) {
+    constructor(nombre,vida,fuerza) {
         this.nombre = nombre;
         this.vida = vida;
         this.fuerza = fuerza;
-        this.defensa = defensa;
+        this.golpe = 0;
     }
 
     pegar() {
-        return this.fuerza;
+        return this.golpe + this.fuerza;
     }
 
     cancelarGolpe() {
@@ -18,14 +18,14 @@ class Luchador {
 
 // Instanciando luchadores
 
-let fighter1 = new Luchador("Queen",1000,250,250);
-let fighter2 = new Luchador("Susie",1150,300,150);
-let fighter3 = new Luchador("AnnoyingDog",Math.floor((Math.random() * (5001 - 1000) + 1000)),(Math.random() * (601 - 100) + 100));
-let fighter4 = new Luchador("Ralsei",1100,200,150);
-let fighter5 = new Luchador("Temmie",Math.floor((Math.random() * (1701 - 1000) + 1000)),Math.floor((Math.random() * (601 - 100) + 100)),200);
-let fighter6 = new Luchador("Sans",1666,400,300);
-let fighter7 = new Luchador("Noelle",1100,250,250);
-let fighter8 = new Luchador("Berdly",1250,200,200);
+let fighter1 = new Luchador("Queen",1000,250);
+let fighter2 = new Luchador("Susie",1150,300);
+let fighter3 = new Luchador("AnnoyingDog",Math.floor((Math.random() * (5001 - 1000) + 1000)),Math.floor((Math.random() * (601 - 100) + 100)));
+let fighter4 = new Luchador("Ralsei",1100,200);
+let fighter5 = new Luchador("Temmie",Math.floor((Math.random() * (1701 - 1000) + 1000)),Math.floor((Math.random() * (601 - 100) + 100)));
+let fighter6 = new Luchador("Sans",1666,400);
+let fighter7 = new Luchador("Noelle",1100,250);
+let fighter8 = new Luchador("Berdly",1250,200);
 
 // Traductor
 
@@ -39,8 +39,6 @@ let allFighters = {
     7 : fighter7,
     8 : fighter8
 }
-
-
 
 // Generando variables básicas del entorno
 
