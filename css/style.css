@@ -405,13 +405,21 @@ body {
     width: 2.6em;
 }
 
-.plyr1Hit {
+.plyr1QueenHit {
     height: 32em;
-    width: 32em;
+    width: 30em;
 
-    background-color: aqua;
+    background: url(../img/plyr1QueenHit.gif);
+
+    object-position: bottom;
+    object-fit: contain;
 
     display: flex;
+
+    background-size: 28em;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
 }
 
 #pegarContenedor {
@@ -431,20 +439,6 @@ body {
 /* Quinta pantalla */
 
 .designScreen5 {
-    background-color: black;
-
-    height: 100vh;
-    width: 100vw;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Sexta pantalla */
-
-.designScreen6 {
     background-color: black;
 
     height: 100vh;

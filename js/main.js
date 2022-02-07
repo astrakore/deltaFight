@@ -59,34 +59,18 @@ const displayGame = () => {
                                            
 }
 
-const pegar = () => {
+// ---------------------------------------- EL JUGADOR 1 PEGA ASÍ ---------------------------------------- 
 
-    if ((jugador1.vida <= 0) || (jugador2.vida > 0)) {
-        ganador = jugador2;
+const pegar1 = () => {
 
-    } else  {
-        ganador = jugador1;
-    }
-
-    displayJugador1.innerHTML = `<img class="foto" src="img/plyr1${jugador1.nombre}Hit.gif" alt="primer_luchador_pegando"/>`;
-    displayJugador1.onclick = "";
-    displayJugador1.classList.add("plyr1Hit");
+    displayJugador1.classList.remove("foto");
+    displayJugador1.classList.add("plyr1" + jugador1.nombre + "Hit");
+    
     setTimeout(() => {
-        displayJugador1.classList.remove("plyr1Hit");
+        displayJugador1.classList.remove("plyr1" + jugador1.nombre + "Hit");
+        displayJugador1.classList.add("foto");
+        console.log("Ya ha terminado de pegar");
     }, 1000);
-    
-
-    displayJugador2.innerHTML = `<img class="foto" src="img/plyr2${jugador2.nombre}Hit.gif" alt="segundo_luchador_pegando"/>`;
-    
-
-    jugador1.pegar();
-
-    jugador1.cancelarGolpe();
-
-    jugador2.pegar();
-
-    jugador2.cancelarGolpe();
-
 
 }
 
@@ -95,15 +79,3 @@ let displayJugador2 = document.getElementById("pictureFighter2");
 let statsJugador1 = document.getElementById("stats1");
 let statsJugador2 = document.getElementById("stats2");
 let winner = document.getElementById("winner");
-
-// let screen4 = document.getElementById("screen4");
-
-// document.body.addEventListener("keydown", (ev) => {
-            
-//     if(screen4.style.display == "block"){
-//         console.log("ataque");
-//     }
-
-// });
-
-// Algoritmo
