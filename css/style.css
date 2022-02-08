@@ -405,113 +405,12 @@ body {
     width: 2.6em;
 }
 
-.plyr1QueenHit {
-    height: 32em;
-    width: 44em;
-
-    background: url(../img/plyr1QueenHit.gif);
-
-    object-position: bottom;
-    object-fit: contain;
-
-    display: flex;
-
-    background-size: 28em;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-
-}
-
-.plyr2QueenHit {
-    height: 32em;
-    width: 44em;
-
-    background: url(../img/plyr2QueenHit.gif);
-
-    object-position: bottom;
-    object-fit: contain;
-
-    display: flex;
-
-    background-size: 28em;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-
-}
-
-.plyr1SusieHit {
-    height: 32em;
-    width: 44em;
-
-    background: url(../img/plyr1SusieHit.gif);
-
-    object-position: bottom;
-    object-fit: contain;
-
-    display: flex;
-
-    background-size: 28em;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-
-}
-
-.plyr2SusieHit {
-    height: 32em;
-    width: 44em;
-
-    background: url(../img/plyr2SusieHit.gif);
-
-    object-position: bottom;
-    object-fit: contain;
-
-    display: flex;
-
-    background-size: 28em;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-
-}
-
-.plyr1AnnoyingDogHit {
-    height: 32em;
-    width: 44em;
-
-    background: url(../img/plyr1AnnoyingDogHit.gif);
-
-    object-position: bottom;
-    object-fit: contain;
-
-    display: flex;
-
-    background-size: 28em;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-
-}
-
-.plyr2AnnoyingDogHit {
-    height: 32em;
-    width: 44em;
-
-    background: url(../img/plyr2AnnoyingDogHit.gif);
-
-    object-position: bottom;
-    object-fit: contain;
-
-    display: flex;
-
-    background-size: 28em;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-
-}
-
 #pegarContenedor {
     height: 1.3em;
     width: 1.8em;
 
     background-color: white;
+    color: black;
 
     font-family: "Pixel Operator";
     font-size: 3em;
@@ -524,7 +423,7 @@ body {
 /* Quinta pantalla */
 
 .designScreen5 {
-    background-color: black;
+    background-color: rgb(19, 19, 19);
 
     height: 100vh;
     width: 100vw;
@@ -532,5 +431,163 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
+}
+
+#nombreGanador {
+    height: 1.3em;
+    width: 8em;
+
+    background-color: white;
+
+    display: flex;
+    align-items: center;
     justify-content: center;
+
+    font-family: "Pixel Operator";
+    font-size: 3em;
+}
+
+.ganadorLuchQueen {
+    height: 30em;
+    width: 11em;
+
+    margin: 2em;
+
+    display: flex;
+
+    object-position: bottom;
+    object-fit: contain;
+
+    background-image: url(../img/QueenWinner.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ganadorLuchSusie {
+    height: 30em;
+    width: 11em;
+
+    margin: 2em;
+
+    display: flex;
+
+    object-position: bottom;
+    object-fit: contain;
+
+    background-image: url(../img/SusieWinner.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ganadorLuchAnnoyingDog {
+    height: 30em;
+    width: 11em;
+
+    margin: 2em;
+
+    display: flex;
+
+    object-position: bottom;
+    object-fit: contain;
+
+    background-image: url(../img/AnnoyingDogWinner.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ganadorLuchRalsei {
+    height: 30em;
+    width: 11em;
+
+    margin: 2em;
+
+    display: flex;
+
+    object-position: bottom;
+    object-fit: contain;
+
+    background-image: url(../img/RalseiWinner.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ganadorLuchTemmie {
+    height: 30em;
+    width: 11em;
+
+    margin: 2em;
+
+    display: flex;
+
+    object-position: bottom;
+    object-fit: contain;
+
+    background-image: url(../img/TemmieWinner.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ganadorLuchSans {
+    height: 30em;
+    width: 11em;
+
+    margin: 2em;
+
+    display: flex;
+
+    object-position: bottom;
+    object-fit: contain;
+
+    background-image: url(../img/SansWinner.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ganadorLuchNoelle {
+    height: 30em;
+    width: 11em;
+
+    margin: 2em;
+
+    display: flex;
+
+    object-position: bottom;
+    object-fit: contain;
+
+    background-image: url(../img/NoelleWinner.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ganadorLuchBerdly {
+    height: 30em;
+    width: 11em;
+
+    margin: 2em;
+
+    display: flex;
+
+    object-position: bottom;
+    object-fit: contain;
+
+    background-image: url(../img/BerdlyWinner.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }

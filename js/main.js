@@ -1,13 +1,5 @@
 // Funciones
 
-// ---------------------------------------- NUEVO JUEGO ---------------------------------------- 
-
-const cleanGame = () => {
-    jugador1 = "";
-    jugador2 = "";
-    ganador = "";
-}
-
 // ---------------------------------------- CAMBIO DE PANTALLA ---------------------------------------- 
 
 const cambiaPantalla = (cambio) => {
@@ -61,7 +53,7 @@ const displayGame = () => {
                                            
 }
 
-// ---------------------------------------- EL LUCHADOR PEGA ASÍ ---------------------------------------- 
+// ---------------------------------------- EL LUCHADOR 1 PEGA ASÍ ---------------------------------------- 
 
 const pegar1 = () => {
 
@@ -77,10 +69,13 @@ const pegar1 = () => {
         
         if (jugador2.vida <= 0) {
             ganador = jugador1;
-            console.log((jugador1.nombre) + " HA GANADO!!!!!!!!!!!");
+            cambiaPantalla(5);
+            displayWinner();
         }
     }
 }
+
+// ---------------------------------------- EL LUCHADOR 2 PEGA ASÍ ---------------------------------------- 
 
 const pegar2 = () => {
 
@@ -96,9 +91,32 @@ const pegar2 = () => {
         
         if (jugador1.vida <= 0) {
             ganador = jugador2;
-            console.log((jugador2.nombre) + " HA GANADO!!!!!!!!!!!");
+            cambiaPantalla(5);
+            displayWinner();
         }
 
+    }
+}
+
+// ---------------------------------------- MOSTRAR AL GANADOR ---------------------------------------- 
+
+const displayWinner = () => {
+
+    if (jugador1 == ganador) {
+        let malditoGanador = document.getElementById("ganadorHeehee");
+        malditoGanador.classList.remove("ganadorHeehee");
+        malditoGanador.classList.add("ganadorLuch" + (jugador1.nombre));
+        let url = "/assets/" + jugador1.nombre + "WinnerSong.mp3";
+        let audiojugador1 = new Audio(url);
+        audiojugador1.play();
+
+    } else if (jugador2 == ganador) {
+        let malditoGanador = document.getElementById("ganadorHeehee");
+        malditoGanador.classList.remove("ganadorHeehee");
+        malditoGanador.classList.add("ganadorLuch" + (jugador2.nombre));
+        let url = "/assets/" + jugador2.nombre + "WinnerSong.mp3";
+        let audioJugador2 = new Audio(url);
+        audioJugador2.play();
     }
 }
 
