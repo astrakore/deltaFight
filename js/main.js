@@ -63,7 +63,26 @@ const displayGame = () => {
 
 // ---------------------------------------- EL LUCHADOR PEGA ASÍ ---------------------------------------- 
 
-const pegar = () => {
+const pegar1 = () => {
+
+    if (jugador1) {
+        
+        let resultado1Golpe0 = jugador2.vida;
+
+        while (jugador2.vida == resultado1Golpe0) {
+            let resultado1Golpe1 = (jugador2.vida - jugador1.fuerza);
+            jugador2.vida = resultado1Golpe1;
+            statsJugador2.innerHTML = `<div>${jugador2.nombre} ${jugador2.vida}</div>`;
+        }
+        
+        if (jugador2.vida <= 0) {
+            ganador = jugador1;
+            console.log((jugador1.nombre) + " HA GANADO!!!!!!!!!!!");
+        }
+    }
+}
+
+const pegar2 = () => {
 
     if (jugador2) {
 
@@ -72,7 +91,7 @@ const pegar = () => {
         while (jugador1.vida == resultado2Golpe0) {
             let resultado2Golpe1 = (jugador1.vida - jugador2.fuerza);
             jugador1.vida = resultado2Golpe1;
-            console.log(jugador1.vida);
+            statsJugador1.innerHTML = `<div>${jugador1.nombre} ${jugador1.vida}</div>`;
         }
         
         if (jugador1.vida <= 0) {
@@ -80,34 +99,7 @@ const pegar = () => {
             console.log((jugador2.nombre) + " HA GANADO!!!!!!!!!!!");
         }
 
-    } else if (jugador1) {
-        
-        let resultado1Golpe0 = jugador1.vida;
-
-        while (jugador2.vida == resultado1Golpe0) {
-            let resultado1Golpe1 = (jugador2.vida - jugador1.fuerza);
-            jugador2.vida = resultado1Golpe1;
-            console.log(jugador2.vida);
-        }
-        
-        if (jugador2.vida <= 0) {
-            ganador = jugador1;
-            console.log((jugador1.nombre) + " HA GANADO!!!!!!!!!!!");
-        }
-
     }
-
-    // if (jugador1) {
-    //     while (jugador1.vida) {
-            
-    //     }
-    //     let jugador1VidaNueva = (jugador1.vida - jugador2.fuerza);
-    //     console.log(jugador1VidaNueva);
-    // } else if (jugador2) {
-    //     let jugador2VidaNueva = (jugador2.vida - jugador1.fuerza);
-    //     console.log(jugador2VidaNueva);
-    // }
-
 }
 
 // ---------------------------------------- COSITAS DEL DISPLAY ---------------------------------------- 
