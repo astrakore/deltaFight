@@ -53,26 +53,64 @@ const displayGame = () => {
 
     displayJugador1.innerHTML = `<img class="foto" src="img/plyr1${jugador1.nombre}.png" alt="primer_luchador"/>`;
     statsJugador1.innerHTML = `<div>${jugador1.nombre} ${jugador1.vida}</div>`;
+    console.log(statsJugador1);
     
     displayJugador2.innerHTML = `<img class="foto" src="img/plyr2${jugador2.nombre}.png" alt="segundo_luchador"/>`;
     statsJugador2.innerHTML = `<div>${jugador2.nombre} ${jugador2.vida}</div>`;
+    console.log(statsJugador2);
                                            
 }
 
-// ---------------------------------------- EL JUGADOR 1 PEGA ASÍ ---------------------------------------- 
+// ---------------------------------------- EL LUCHADOR PEGA ASÍ ---------------------------------------- 
 
-const pegar1 = () => {
+const pegar = () => {
 
-    displayJugador1.classList.remove("foto");
-    displayJugador1.classList.add("plyr1" + jugador1.nombre + "Hit");
-    
-    setTimeout(() => {
-        displayJugador1.classList.remove("plyr1" + jugador1.nombre + "Hit");
-        displayJugador1.classList.add("foto");
-        console.log("Ya ha terminado de pegar");
-    }, 1000);
+    if (jugador2) {
+
+        let resultado2Golpe0 = jugador1.vida;
+
+        while (jugador1.vida == resultado2Golpe0) {
+            let resultado2Golpe1 = (jugador1.vida - jugador2.fuerza);
+            jugador1.vida = resultado2Golpe1;
+            console.log(jugador1.vida);
+        }
+        
+        if (jugador1.vida <= 0) {
+            ganador = jugador2;
+            console.log((jugador2.nombre) + " HA GANADO!!!!!!!!!!!");
+        }
+
+    } else if (jugador1) {
+        
+        let resultado1Golpe0 = jugador1.vida;
+
+        while (jugador2.vida == resultado1Golpe0) {
+            let resultado1Golpe1 = (jugador2.vida - jugador1.fuerza);
+            jugador2.vida = resultado1Golpe1;
+            console.log(jugador2.vida);
+        }
+        
+        if (jugador2.vida <= 0) {
+            ganador = jugador1;
+            console.log((jugador1.nombre) + " HA GANADO!!!!!!!!!!!");
+        }
+
+    }
+
+    // if (jugador1) {
+    //     while (jugador1.vida) {
+            
+    //     }
+    //     let jugador1VidaNueva = (jugador1.vida - jugador2.fuerza);
+    //     console.log(jugador1VidaNueva);
+    // } else if (jugador2) {
+    //     let jugador2VidaNueva = (jugador2.vida - jugador1.fuerza);
+    //     console.log(jugador2VidaNueva);
+    // }
 
 }
+
+// ---------------------------------------- COSITAS DEL DISPLAY ---------------------------------------- 
 
 let displayJugador1 = document.getElementById("pictureFighter1");
 let displayJugador2 = document.getElementById("pictureFighter2");

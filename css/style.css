@@ -381,7 +381,7 @@ body {
 
 .fighterFightDisplay {
     height: 32em;
-    width: 44em;
+    width: 28em;
 
     display: flex;
     align-items: end;
@@ -390,7 +390,7 @@ body {
 
 .foto {
     height: 32em;
-    width: 32em;
+    width: 28em;
 
     display: flex;
 
@@ -407,9 +407,94 @@ body {
 
 .plyr1QueenHit {
     height: 32em;
-    width: 30em;
+    width: 44em;
 
     background: url(../img/plyr1QueenHit.gif);
+
+    object-position: bottom;
+    object-fit: contain;
+
+    display: flex;
+
+    background-size: 28em;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
+}
+
+.plyr2QueenHit {
+    height: 32em;
+    width: 44em;
+
+    background: url(../img/plyr2QueenHit.gif);
+
+    object-position: bottom;
+    object-fit: contain;
+
+    display: flex;
+
+    background-size: 28em;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
+}
+
+.plyr1SusieHit {
+    height: 32em;
+    width: 44em;
+
+    background: url(../img/plyr1SusieHit.gif);
+
+    object-position: bottom;
+    object-fit: contain;
+
+    display: flex;
+
+    background-size: 28em;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
+}
+
+.plyr2SusieHit {
+    height: 32em;
+    width: 44em;
+
+    background: url(../img/plyr2SusieHit.gif);
+
+    object-position: bottom;
+    object-fit: contain;
+
+    display: flex;
+
+    background-size: 28em;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
+}
+
+.plyr1AnnoyingDogHit {
+    height: 32em;
+    width: 44em;
+
+    background: url(../img/plyr1AnnoyingDogHit.gif);
+
+    object-position: bottom;
+    object-fit: contain;
+
+    display: flex;
+
+    background-size: 28em;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
+}
+
+.plyr2AnnoyingDogHit {
+    height: 32em;
+    width: 44em;
+
+    background: url(../img/plyr2AnnoyingDogHit.gif);
 
     object-position: bottom;
     object-fit: contain;
