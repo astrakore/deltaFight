@@ -1,3 +1,5 @@
+// Instanciando la clase Luchador
+
 class Luchador {
 
     constructor(nombre,vida,fuerza) {
@@ -9,10 +11,6 @@ class Luchador {
 
     pegar() {
         return this.golpe + this.fuerza;
-    }
-
-    cancelarGolpe() {
-        return this.fuerza = 0;
     }
 }
 
@@ -27,7 +25,7 @@ let fighter6 = new Luchador("Sans",1666,400);
 let fighter7 = new Luchador("Noelle",1100,250);
 let fighter8 = new Luchador("Berdly",1250,200);
 
-// Traductor
+// Traductor/Diccionario
 
 let allFighters = {
     1 : fighter1,

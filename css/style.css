@@ -88,6 +88,8 @@ body {
     justify-content: center;
 }
 
+/* Esto son las fotos de Queen */
+
 .fighterChoosing1 {
     margin: 0;
     padding: 0;
@@ -102,6 +104,19 @@ body {
     background-image: url(../img/seleccionQueen.png);
     background-size: cover;
 }
+
+.fighterSelected1 {
+    height: 18em;
+    width: 18em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionQueenBYN.png);
+}
+
+/* Esto son las fotos de Susie */
 
 .fighterChoosing2 {
     margin: 0;
@@ -118,6 +133,19 @@ body {
     background-size: cover;
 }
 
+.fighterSelected2 {
+    height: 18em;
+    width: 18em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionSusieBYN.png);
+}
+
+/* Estas son las fotos de AnnoyingDog */
+
 .fighterChoosing3 {
     margin: 0;
     padding: 0;
@@ -132,6 +160,19 @@ body {
     background-image: url(../img/seleccionAnnoyingDog.png);
     background-size: cover;
 }
+
+.fighterSelected3 {
+    height: 18em;
+    width: 18em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionAnnoyingDogBYN.png);
+}
+
+/* Estas son las fotos de Ralsei */
 
 .fighterChoosing4 {
     margin: 0;
@@ -148,6 +189,19 @@ body {
     background-size: cover;
 }
 
+.fighterSelected4 {
+    height: 18em;
+    width: 18em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionRalseiBYN.png);
+}
+
+/* Estas son las fotos de Temmie */
+
 .fighterChoosing5 {
     margin: 0;
     padding: 0;
@@ -162,6 +216,19 @@ body {
     background-image: url(../img/seleccionTemmie.png);
     background-size: cover;
 }
+
+.fighterSelected5 {
+    height: 18em;
+    width: 18em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionTemmieBYN.png);
+}
+
+/* Estas son las fotos de Sans */
 
 .fighterChoosing6 {
     margin: 0;
@@ -178,6 +245,19 @@ body {
     background-size: cover;
 }
 
+.fighterSelected6 {
+    height: 18em;
+    width: 18em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionSansBYN.png);
+}
+
+/* Estas son las fotos de Noelle */
+
 .fighterChoosing7 {
     margin: 0;
     padding: 0;
@@ -193,6 +273,19 @@ body {
     background-size: cover;
 }
 
+.fighterSelected7 {
+    height: 18em;
+    width: 18em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/seleccionNoelleBYN.png);
+}
+
+/* Estas son las fotos de Berdly */
+
 .fighterChoosing8 {
     margin: 0;
     padding: 0;
@@ -206,95 +299,6 @@ body {
 
     background-image: url(../img/seleccionBerdly.png);
     background-size: cover;
-}
-
-.fighterSelection {
-    height: 20em;
-    width: 40em;
-
-    background-color: rgb(138, 133, 133);
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.fighterSelected1 {
-    height: 18em;
-    width: 18em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-image: url(../img/seleccionQueenBYN.png);
-}
-
-.fighterSelected2 {
-    height: 18em;
-    width: 18em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-image: url(../img/seleccionSusieBYN.png);
-}
-
-.fighterSelected3 {
-    height: 18em;
-    width: 18em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-image: url(../img/seleccionAnnoyingDogBYN.png);
-}
-
-.fighterSelected4 {
-    height: 18em;
-    width: 18em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-image: url(../img/seleccionRalseiBYN.png);
-}
-
-.fighterSelected5 {
-    height: 18em;
-    width: 18em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-image: url(../img/seleccionTemmieBYN.png);
-}
-
-.fighterSelected6 {
-    height: 18em;
-    width: 18em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-image: url(../img/seleccionSansBYN.png);
-}
-
-.fighterSelected7 {
-    height: 18em;
-    width: 18em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-image: url(../img/seleccionNoelleBYN.png);
 }
 
 .fighterSelected8 {
@@ -448,6 +452,8 @@ body {
     font-size: 3em;
 }
 
+/* Esta es la foto de ganador de Queen */
+
 .ganadorLuchQueen {
     height: 30em;
     width: 11em;
@@ -465,6 +471,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* Esta es la foto de ganador de Susie */
 
 .ganadorLuchSusie {
     height: 30em;
@@ -484,6 +492,8 @@ body {
     background-position: center;
 }
 
+/* Esta es la foto de ganador de AnnoyingDog */
+
 .ganadorLuchAnnoyingDog {
     height: 30em;
     width: 11em;
@@ -501,6 +511,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* Esta es la foto de ganador de Ralsei */
 
 .ganadorLuchRalsei {
     height: 30em;
@@ -520,6 +532,8 @@ body {
     background-position: center;
 }
 
+/* Esta es la foto de ganador de Temmie */
+
 .ganadorLuchTemmie {
     height: 30em;
     width: 11em;
@@ -537,6 +551,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* Esta es la foto de ganador de Sans */
 
 .ganadorLuchSans {
     height: 30em;
@@ -556,6 +572,8 @@ body {
     background-position: center;
 }
 
+/* Esta es la foto de ganador de Noelle */
+
 .ganadorLuchNoelle {
     height: 30em;
     width: 11em;
@@ -573,6 +591,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* Esta es la foto de ganador de Berdly */
 
 .ganadorLuchBerdly {
     height: 30em;
